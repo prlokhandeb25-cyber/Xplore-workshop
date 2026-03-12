@@ -27,14 +27,14 @@ match day:
         print("Wednesday")
     case 4:
         print("Thursday")
-    case 6:
+    case 5:
         print("Friday")
+    case 6:
+        print("Saturday")
     case 7:
-        print("Saturaday")
-    case 8:
         print("Sunday")
     # fill in the rest
-    case 9:
+    case _: #default
         print("Funday !") 
 
 # implement try catch
